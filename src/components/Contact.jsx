@@ -3,6 +3,8 @@ import { Mail, Smartphone, Link, Terminal, MessageCircle, MapPin } from 'lucide-
 import './Contact.css';
 
 const Contact = () => {
+  const whatsappMessage = encodeURIComponent("Hi Tech Bull 360! I'd like to discuss a project with you.");
+
   return (
     <section className="section contact" id="contact">
       <div className="container">
@@ -32,7 +34,7 @@ const Contact = () => {
                 </div>
               </a>
               
-              <a href="https://wa.me/919025980641" className="contact-item">
+              <a href={`https://wa.me/919025980641?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer" className="contact-item">
                 <div className="contact-icon"><MessageCircle size={20} /></div>
                 <div>
                   <h4>WhatsApp</h4>
@@ -55,25 +57,29 @@ const Contact = () => {
             </div>
           </div>
           
-          <div className="contact-form-wrapper">
-            <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
-              <div className="form-group">
-                <label>Name</label>
-                <input type="text" placeholder="John Doe" />
+          {/* WhatsApp CTA Card */}
+          <div className="whatsapp-cta-wrapper">
+            <div className="whatsapp-cta-card">
+              <div className="wa-icon-ring">
+                <MessageCircle size={48} />
               </div>
-              <div className="form-group">
-                <label>Email</label>
-                <input type="email" placeholder="john@company.com" />
-              </div>
-              <div className="form-group">
-                <label>Project Details</label>
-                <textarea rows="5" placeholder="Tell me about what you want to build..."></textarea>
-              </div>
-              <button type="submit" className="btn btn-primary submit-btn">
-                Send Message
-              </button>
-            </form>
+              <h3>Start a Conversation</h3>
+              <p>
+                Got an idea? We'd love to hear it. Message us directly on WhatsApp and we'll get back to you within minutes!
+              </p>
+              <a
+                href={`https://wa.me/919025980641?text=${whatsappMessage}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="wa-btn"
+              >
+                <MessageCircle size={22} />
+                Message on WhatsApp
+              </a>
+              <span className="wa-note">Typically replies within a few minutes</span>
+            </div>
           </div>
+
         </div>
       </div>
     </section>
