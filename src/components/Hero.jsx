@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
           
           <h1 className="hero-title" style={{ fontSize: '3.5rem' }}>
-            Tech Bull 360 | <br />
+            Tech Bull 360 <br />
             <span className="gradient-text">AI Automation Agency</span>
           </h1>
           
