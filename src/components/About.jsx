@@ -37,10 +37,10 @@ const About = () => {
           <div className="about-text">
             <h3>Breaking the traditional development bottleneck.</h3>
             <p>
-              I specialize in building practical, fast, and modern digital solutions using AI-assisted workflows. Instead of manually typing every line of boilerplate, I orchestrate AI models to generate robust architectures, allowing me to focus entirely on **business logic, premium user experiences, and rapid delivery.**
+              We specialize in building practical, fast, and modern digital solutions using AI-assisted workflows. Instead of manually typing every line of boilerplate, we orchestrate AI models to generate robust architectures, allowing us to focus entirely on <strong>business logic, premium user experiences, and rapid delivery.</strong>
             </p>
             <p className="highlight-text">
-              My superpower is turning your raw concept into a live, usable product faster than a traditional agency can even draft a proposal.
+              Our superpower is turning your raw concept into a live, usable product faster than a traditional agency can even draft a proposal.
             </p>
           </div>
           
