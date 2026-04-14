@@ -35,6 +35,12 @@
   transform: translateX(10px);
 }
 
+.contact-item:hover .contact-icon {
+  box-shadow: 0 0 18px rgba(139, 92, 246, 0.6);
+  border-color: rgba(139, 92, 246, 0.5);
+  background: rgba(139, 92, 246, 0.15);
+}
+
 .contact-icon {
   background: var(--surface-light);
   color: var(--accent-primary);
@@ -45,6 +51,8 @@
   align-items: center;
   justify-content: center;
   border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  flex-shrink: 0;
 }
 
 .contact-item h4 {
@@ -80,6 +88,7 @@
   background: var(--accent-gradient);
   border-color: transparent;
   transform: translateY(-5px);
+  box-shadow: var(--glow-purple);
 }
 
 .whatsapp-cta-wrapper {
@@ -104,8 +113,8 @@
 
 .whatsapp-cta-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(37, 211, 102, 0.5);
-  box-shadow: 0 20px 40px rgba(37, 211, 102, 0.1);
+  border-color: rgba(37, 211, 102, 0.6);
+  box-shadow: 0 0 30px rgba(37, 211, 102, 0.25), 0 20px 40px rgba(37, 211, 102, 0.1);
 }
 
 .wa-icon-ring {
@@ -118,7 +127,8 @@
   align-items: center;
   justify-content: center;
   border: 2px solid rgba(37, 211, 102, 0.3);
-  animation: pulse-glow 2s infinite;
+  animation: pulse-glow-cyan 2s infinite;
+  box-shadow: 0 0 20px rgba(37, 211, 102, 0.3);
 }
 
 .whatsapp-cta-card h3 {
