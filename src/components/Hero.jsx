@@ -33,7 +33,7 @@ const Hero = () => {
             <a href="#contact" className="btn btn-secondary">
               Contact Me
             </a>
-            <a href="./UDHAYA SURIYA RESUME.pdf" className="btn btn-outline" download="UDHAYA SURIYA RESUME.pdf">
+            <a href="./UDHAYA SURIYA R&L.pdf" className="btn btn-outline" download="UDHAYA SURIYA R&L.pdf">
               <Download size={18} /> Resume
             </a>
           </div>
