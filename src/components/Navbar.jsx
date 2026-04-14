@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <a href="#" className="logo">
-          <img src="/techbull_circle.png" alt="Tech Bull Logo" style={{ height: '40px', width: '40px', borderRadius: '50%', objectFit: 'cover' }} />
+          <img src="./techbull_circle.png" alt="Tech Bull Logo" style={{ height: '40px', width: '40px', borderRadius: '50%', objectFit: 'cover' }} />
           <span>Tech Bull <span className="gradient-text">360</span></span>
         </a>
 

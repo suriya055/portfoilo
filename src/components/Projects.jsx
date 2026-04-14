@@ -11,7 +11,7 @@ const Projects = () => {
       stack: ["Node.js", "Express.js", "MongoDB", "Meta WhatsApp Cloud API"],
       role: "Lead Full Stack Developer",
       result: "We developed an automated, MongoDB-backed WhatsApp chatbot that handles 24/7 FAQs via the Meta Cloud API, paired with a web-based dashboard for managing contacts and executing bulk promotional campaigns.",
-      placeholderImg: "url('/tech-bull-console.png') center/cover"
+      placeholderImg: "url('./tech-bull-console.png') center/cover"
     },
     {
       title: "SME 360 - Mall Management Suite",
@@ -21,7 +21,7 @@ const Projects = () => {
       stack: ["React.js", "Node.js", "MongoDB", "WhatsApp Cloud API", "Express.js"],
       role: "Lead AI Architect",
       result: "We built an all-in-one, centralized SaaS platform that unifies multi-tenant architecture, local POS management, POS-integrated loyalty points, and automated WhatsApp/email notifications for intelligent business tracking.",
-      placeholderImg: "url('/sme-360.png') center/cover"
+      placeholderImg: "url('./sme-360.png') center/cover"
     },
     {
       title: "RASS - Real College Administration Support System",
@@ -31,7 +31,7 @@ const Projects = () => {
       stack: ["React", "Node.js", "MongoDB", "ChromaDB", "Google Gemini API", "Meta WhatsApp Cloud API"],
       role: "Full Stack AI Developer",
       result: "We built an AI-powered Digital Front Desk that autonomously resolves WhatsApp queries using an intelligent RAG system and provides staff with a cohesive dashboard for human takeover, knowledge base management, and lead analytics.",
-      placeholderImg: "url('/rass-dashboard.png') center/cover"
+      placeholderImg: "url('./rass-dashboard.png') center/cover"
     }
   ];
 
