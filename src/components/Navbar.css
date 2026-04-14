@@ -32,6 +32,10 @@
   font-weight: 700;
 }
 
+.logo img {
+  animation: glow-breathe 3s ease-in-out infinite;
+}
+
 .logo-icon {
   color: var(--accent-primary);
 }
@@ -59,10 +63,11 @@
   border-radius: var(--border-radius-lg);
   font-weight: 600;
   transition: all 0.3s ease;
+  animation: pulse-glow 2.5s infinite;
 }
 
 .nav-cta:hover {
-  box-shadow: var(--shadow-glow);
+  box-shadow: var(--glow-purple);
   transform: translateY(-2px);
 }
 

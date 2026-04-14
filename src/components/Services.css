@@ -35,7 +35,7 @@
 
 .service-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--glow-purple-sm), 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .service-card:hover::before {
@@ -52,6 +52,8 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  transition: box-shadow 0.3s ease;
+  animation: pulse-glow-cyan 3s infinite;
 }
 
 .service-title {

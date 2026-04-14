@@ -53,7 +53,7 @@
 .workflow-card:hover {
   transform: translateX(10px);
   border-color: rgba(139, 92, 246, 0.4);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--glow-purple-sm), 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .icon-wrapper {
@@ -64,6 +64,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  transition: box-shadow 0.3s ease;
+}
+
+.workflow-card:hover .icon-wrapper {
+  box-shadow: 0 0 18px rgba(139, 92, 246, 0.5);
 }
 
 .workflow-content h4 {
